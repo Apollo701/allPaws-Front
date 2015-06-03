@@ -2,6 +2,9 @@
 
 module.exports = function(environment) {
   var ENV = {
+    sassOptions: {
+      includePaths: ['bower_components/materialize/sass']
+    },
     modulePrefix: 'front',
     environment: environment,
     baseURL: '/',
