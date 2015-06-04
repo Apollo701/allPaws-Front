@@ -14,5 +14,4 @@ export default DS.Model.extend({
   childFriendly: DS.attr('boolean'),
   adopted: DS.attr('boolean'),
   photos: DS.attr(),
-  wishlist: DS.belongsTo('wishlist')
 });
